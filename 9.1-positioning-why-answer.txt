@@ -1,0 +1,3 @@
+the outter box or the parent box must be in posotion of relative
+and the inner boc must be at the posotion of absoulte after doing that the code would work 
+you can see the code fix in 9.1 posotioning.html
