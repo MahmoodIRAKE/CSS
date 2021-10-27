@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons video</title>
+    <style>
+        .container {
+            align-items: center;
+            margin: auto;
+            background: #334660;
+        }
+        
+        .buttons-container {
+            padding: 10px;
+            margin-left: 10%;
+            text-align: center;
+        }
+        
+        h1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .btn-flat1 {
+            background-color: #01DD77;
+            border: 0px;
+            padding: 10px 40px 10px 40px;
+            margin: 22px;
+            cursor: pointer;
+        }
+        
+        .btn-flat2 {
+            background-color: rgb(255, 0, 0);
+            border: 0px;
+            padding: 5px 30px 5px 30px;
+            margin: 22px;
+            cursor: pointer;
+        }
+        
+        .btn-flat3 {
+            background-color: #0B8EDF;
+            border: 0px;
+            padding: 1px 10px 1px 10px;
+            margin: 22px;
+            cursor: pointer;
+        }
+        
+        .btn-round1 {
+            background-color: #F57901;
+            border: 0px;
+            padding: 10px 40px 10px 40px;
+            margin: 22px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        
+        .btn-round2 {
+            background-color: #F1CF00;
+            border: 0px;
+            padding: 5px 30px 5px 30px;
+            margin: 22px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        
+        .btn-round3 {
+            background-color: #7D8D8F;
+            border: 0px;
+            padding: 1px 10px 1px 10px;
+            margin: 22px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        
+        .btn-round1:hover,
+        .btn-round2:hover,
+        .btn-round3:hover,
+        .btn-flat1:hover,
+        .btn-flat2:hover,
+        .btn-flat3:hover {
+            transition: 0.3;
+            filter: brightness(50%);
+        }
+        
+        .btn-flat-noback1 {
+            background: transparent;
+            border: 2px solid #01DD77;
+            padding: 10px 40px 10px 40px;
+            margin: 20px;
+            cursor: pointer;
+        }
+        
+        .btn-flat-noback2 {
+            background: transparent;
+            border: 2px solid #FC2324;
+            padding: 5px 30px 5px 30px;
+            margin: 20px;
+            cursor: pointer;
+        }
+        
+        .btn-flat-noback3 {
+            background: transparent;
+            border: 2px solid #0B8EDF;
+            padding: 1px 10px 1px 10px;
+            margin: 20px;
+            cursor: pointer;
+        }
+        
+        .btn-flat-noback3:hover {
+            transition: 0.3;
+            background-color: #0B8EDF;
+        }
+        
+        .btn-flat-noback2:hover {
+            transition: 0.3;
+            background-color: #FC2324;
+        }
+        
+        .btn-flat-noback1:hover {
+            transition: 0.3;
+            background-color: #01DD77;
+        }
+        
+        .btn-round-noback1 {
+            background: transparent;
+            border: 2px solid #F57901;
+            padding: 10px 40px 10px 40px;
+            margin: 20px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        
+        .btn-round-noback2 {
+            background: transparent;
+            border: 2px solid #F1CF00;
+            padding: 5px 30px 5px 30px;
+            margin: 20px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        
+        .btn-round-noback3 {
+            background: transparent;
+            border: 2px solid #7D8D8F;
+            padding: 1px 10px 1px 10px;
+            margin: 20px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        
+        .btn-round-noback3:hover {
+            transition: 0.3;
+            background-color: #7D8D8F;
+        }
+        
+        .btn-round-noback2:hover {
+            transition: 0.3;
+            background-color: #F1CF00;
+        }
+        
+        .btn-round-noback1:hover {
+            transition: 0.3;
+            background-color: #F57901;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="buttons-container">
+            <h1>Flat</h1>
+            <button class="btn-flat1">Register</button>
+            <button class="btn-flat2">Clear</button>
+            <button class="btn-flat3">Submit</button>
+        </div>
+        <div class="buttons-container">
+            <h1>Round</h1>
+            <button class="btn-round1">Register</button>
+            <button class="btn-round2">Clear</button>
+            <button class="btn-round3">Submit</button>
+        </div>
+        <div class="buttons-container">
+            <h1>Flat Ghost</h1>
+            <button class="btn-flat-noback1">Register</button>
+            <button class="btn-flat-noback2">Clear</button>
+            <button class="btn-flat-noback3">Submit</button>
+        </div>
+        <div class="buttons-container">
+            <h1>Round Ghost</h1>
+            <button class="btn-round-noback1">Register</button>
+            <button class="btn-round-noback2">Clear</button>
+            <button class="btn-round-noback3">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
